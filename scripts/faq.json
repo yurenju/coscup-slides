@@ -1,0 +1,226 @@
+[
+    {
+        "timestamp": "2013-07-15T14:37:21.000Z",
+        "question": "Linux 是在哪個 newsgroup 首貼的？",
+        "answer": "comp.os.minix ",
+        "reference": "http://www.ragibhasan.com/linux/",
+        "provider": "Pingoo"
+    },
+    {
+        "timestamp": "2013-07-15T14:38:37.000Z",
+        "question": "Linux的企鵝吉祥物的名字是？",
+        "answer": "(T)orvolds (U)ni(X) --> TUX!",
+        "reference": "http://www.sjbaker.org/wiki/index.php?title=The_History_of_Tux_the_Linux_Penguin",
+        "provider": "chihchun"
+    },
+    {
+        "timestamp": "2013-07-15T14:39:48.000Z",
+        "question": "Debian 的每個發行版專案名稱 (code name) 來自哪部動畫電影？",
+        "answer": "Debian 的名稱如 buzz, rex, bo, squeeze, wheezy, jessie 都是來自《玩具總動員》（英文：Toy Story）",
+        "reference": "http://www.debian.org/doc/manuals/debian-faq/ch-ftparchives",
+        "provider": "chihchun"
+    },
+    {
+        "timestamp": "2013-07-15T14:40:28.000Z",
+        "question": "OpenWrt 的發行版名稱有什麼意義？",
+        "answer": "White Russian, Kamikaze, Backfire, Attitude Adjustment 等等都是雞尾酒的名字，而且 openwrt 會在登入畫面擺上酒譜名字，你可以一邊無線上網一邊學調酒喔！\n",
+        "reference": "http://wiki.openwrt.org/about/history",
+        "provider": "chihchun"
+    },
+    {
+        "timestamp": "2013-07-16T02:15:11.000Z",
+        "question": "Firefox 瀏覽器是原是 Mozilla 專案的一個實驗分支，那 Mozilla 專案最初又是由哪個商業公司所開放源碼釋出的專案呢？",
+        "answer": "網景 (Netscape)",
+        "reference": "https://zh.wikipedia.org/wiki/Mozilla_Application_Suite",
+        "provider": "yurenju"
+    },
+    {
+        "timestamp": "2013-07-16T02:24:55.000Z",
+        "question": "Ubuntu的中文譯名？",
+        "answer": "友幫拓",
+        "reference": "http://www.sogi.com.tw/newforum/article_list.aspx?Topic_id=6215483",
+        "provider": "gasolin"
+    },
+    {
+        "timestamp": "2013-07-17T06:49:32.000Z",
+        "question": "Which of the following Linux distro appeared earlier than the rest?\n以下哪個 Linux 發行套件是最早推出的？\n(1) Debian\n(2) Ubuntu\n(3) Redhat\n(4) Slackware\n(5) SuSE",
+        "answer": "(4) Slackware\n\nSlackware: 1993/7\nDebian: 1993/8\nRedhat: 1994/10\nSuSE: 1996/5\nUbuntu: 2004/10",
+        "reference": "http://en.wikipedia.org/wiki/Slackware\nhttp://en.wikipedia.org/wiki/Debian\nhttp://en.wikipedia.org/wiki/Redhat\nhttp://en.wikipedia.org/wiki/SUSE\nhttp://en.wikipedia.org/wiki/Ubuntu_(operating_system)",
+        "provider": "pingooo"
+    },
+    {
+        "timestamp": "2013-07-17T07:14:29.000Z",
+        "question": "How did the name \"Apache\" web server come from?\n網頁伺服器 Apache 的名字從何而來？\n(1) 第一個開發者是 Apache 族印第安人（The first developer was an Apache Indian.）\n(2) 一開始只是 \"a patch\"，後來取其諧音（It started with \"a patch\", later named Apache to make it a pun.）\n(3) 第一個開發者亂取的（The first developer named it out of blue.）\n(4) 開發團隊覺得 AH-64 Apache 攻擊直昇機很酷（The developers think the AH-64 Apache attack helicopter is cool.）\n(5) 開發團隊喜歡跳 Apache 舞（The developers like the Apache dance.）",
+        "answer": "(3) 第一個開發者亂取的（The first developer named it out of blue.）\n\nBrian Behlendorf: \"The name literally came out of the blue. I wish I could say that it was something fantastic, but it was out of the blue. I put it on a page and then a few months later when this project started, I pointed people to this page and said: “Hey, what do you think of that idea?”",
+        "reference": "http://www.linux-mag.com/id/472/",
+        "provider": "pingooo"
+    },
+    {
+        "timestamp": "2013-07-17T07:30:49.000Z",
+        "question": "Which of the following is NOT an open source NoSQL system?\n以下哪個不是 open source 的 NoSQL 資料儲存系統？\n(1) Cassandra\n(2) BigTable\n(3) HyperTable\n(4) MongoDB\n(5) HBase ",
+        "answer": "(2) BigTable\n\n(1) Cassandra 由 Facebook 開發，目前是 Apache 基金會的專案，Apache License 2.0。\n(2) BigTable 由 Google 開發，沒有 open source。\n(3) HyperTable 由前 Inktomi 工程師開發，目前由 hypertable.com 維護，GNU GPL v3.0。\n(4) MongoDB 由 10gen 開發維護，GNU AGPL v3.0。\n(5) HBase 由 Powerset 開發，目前是 Apache 基金會的專案，Apache License 2.0。",
+        "reference": "http://cassandra.apache.org/\nhttp://en.wikipedia.org/wiki/BigTable\nhttp://hypertable.com/\nhttp://en.wikipedia.org/wiki/Mongodb\nhttp://hbase.apache.org/",
+        "provider": "pingooo"
+    },
+    {
+        "timestamp": "2013-07-17T10:00:14.000Z",
+        "question": "Which of the following is not an open source browser layout engine?\n以下哪個不是 open source 的瀏覽器引擎？\n(1) WebKit\n(2) Trident\n(3) Gecko\n(4) Blink\n(5) KHTML",
+        "answer": "(2) Trident\n\nTrident: for IE since version 4.0.\nGecko: for Firefox.\nKHTML: for KDE's Konquerer.\nWebKit: A fork of KHTML by Apple in 2001 for Safari.\nBlink: A fork of WebKit by Google in 2013 for Chromium.",
+        "reference": "http://en.wikipedia.org/wiki/WebKit\nhttps://developer.mozilla.org/en-US/docs/Mozilla/Gecko\nhttp://www.chromium.org/blink\nhttp://en.wikipedia.org/wiki/KHTML",
+        "provider": "pingooo"
+    },
+    {
+        "timestamp": "2013-07-17T10:28:32.000Z",
+        "question": "How to count number of accounts of each group in a Linux box with a one-liner?\n如何用一行指令計算 Linux 中每個 group 有幾個帳號？\n$ cat /etc/passwd\nroot:x:0:0:root:/root:/bin/bash\nnobody:x:65534:65534:nobody:/nonexistent:/bin/sh\nntp:x:106:113::/home/ntp:/bin/false\nsshd:x:105:65534::/var/run/sshd:/usr/sbin/nologin\nlibuuid:x:100:101::/var/lib/libuuid:/bin/sh\n$ (your script here)  ＃ sorted by group ID\n      1 0\n      1 101\n      1 113\n      2 65534\n\n(1) awk -F: '{print $4}' /etc/passwd | sort -n | uniq -c\n(2) awk -F: '{count[$4]+=1}END{ for (group in count) print count[group], group}' /etc/passwd | sort -n\n(3) cut -d: -f4 /etc/passwd | sort -n | uniq -c\n(4) 以上皆是（all of the above）\n",
+        "answer": -4,
+        "reference": "man pages of awk, sort, uniq.",
+        "provider": "pingooo"
+    },
+    {
+        "timestamp": "2013-07-17T13:36:02.000Z",
+        "question": "問：Lua 、Ruby on Rails、X Window System，這些都是採用哪種寬鬆的開源授權條款？\n（1）MIT License（2）GPL License（3）LGPL License（4）BSD License",
+        "answer": "答：MIT License 是比較寬鬆的授權條款，程式的被授權人受到給予相對較大的權利，限制也相對較少。",
+        "reference": "http://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:37:52.000Z",
+        "question": "問：維基百科 Wikipedia 在 2012 年，面臨到美國 SOPA 法案的威脅時，以關閉維基網站一天（Black-out）的方式表達抗議。當時英語維基的黑屏網頁第一句話是？\n（1）\"404 Not Found\"（2）\"Wikipedians Never Die. They Only Fade Away.\"（3）\"Imagine a World Without Free Knowledge.\"（4）\"Wikipedia Was Down. Damn SOPA and PIPA.\"",
+        "answer": "答：\"Imagine a World Without Free Knowledge.\"（「試著想像一個沒有自由知識的世界」）。這段文字是參照維基媒體基金會（Wikimedia Foundation, Inc.）的格言寫成的，警醒世人失去自由知識的嚴重後果。",
+        "reference": "http://en.wikipedia.org/wiki/Wikipedia:SOPA_initiative",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:38:56.000Z",
+        "question": "問：LXDE 桌面環境是由台灣團隊開發而成，他們在 2010 年的時候推出了哪一個 Ubuntu 的分支計劃？\n（1）Lubuntu（2）Edubuntu（3）Kubuntu（4）Xubuntu",
+        "answer": "答：Lubuntu 桌面系統是 Ubuntu 的分支計劃，是由來自台灣的 LXDE 團隊推出。Lubuntu 特色是介面簡潔輕巧、節省效能，可運作於老舊的電腦上。",
+        "reference": "http://zh.wikipedia.org/wiki/Lubuntu",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:40:15.000Z",
+        "question": "問：中文維基百科 Chinese Wikipedia 的副標題：「海納百川，有容乃大」，曾經被 Google Translate 翻譯成什麼？\n（1）\"Jimbo is watching you.\"（2）\"Welcome to Wikipedia.\"（3）\"No Wikipedia, no world.\"（4）\"All rivers run into the sea.\"",
+        "answer": "答：\"Welcome to Wikipedia.\"。這曾經是 Google Translate 機器翻譯的結果，由於直接將英語維基的頁面，對應到中文維基的頁面，因而產生的一個錯誤，現在已修正。然而依然有一些中國大陸的字典網站收錄到這個錯誤的譯詞。",
+        "reference": "http://www.feifantxt.com/simple/?t565874.html\nhttp://dict.youdao.com/search?le=eng&q=welcome%20to%20wikipedia&keyfrom=dict.index",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:41:07.000Z",
+        "question": "問：程式語言 Python 的名稱是用什麼來命名的？\n（1）大蟒蛇（2）荷蘭駭客（3）BBC 喜劇（4）CIA 影集",
+        "answer": "答：Python 創作者 Guido van Rossum 是以 BBC 喜劇「Monty Python's Flying Circus」（《蒙提·派森的飛行馬戲團》）來命名的，他是這一系列喜劇的粉絲。",
+        "reference": "《Python 學習手冊》中文第三版，第一章〈Python 簡介〉頁 17，O'Reilly 出版",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:42:04.000Z",
+        "question": "問：\"The Book of Mozilla, 3:31\" 這個虛構書名的章節數字，是為了慶祝什麼日子？\n（1）Mozilla Firefox 正式釋出（2）Netscape 首次公開募股（3）Mozilla Firefox 市佔率成長（4）Netscape 開放原始碼",
+        "answer": "答：1998 年 3 月 31 日是 Netscape 開放原始碼並且啟動 Mozilla 專案的日子。",
+        "reference": "http://zh.wikipedia.org/wiki/Mozilla%E4%B9%8B%E6%9B%B8",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:42:48.000Z",
+        "question": "問：維基百科 Wikipedia 的模版（Template）在 2013 年開始啟用哪一種程式語言，取代原先複雜、效能低落且功能受限的模版語言？\n（1）Lua（2）Python（3）Ruby（4）PHP",
+        "answer": "答：維基百科的模版在 2013 年啟用 Lua 程式語言 ，因為原本的模版語言不支援程式迴圈，而且啟用 Lua 能讓大量引用模版時的性能提升，渲染時間明顯縮短。",
+        "reference": "https://blog.wikimedia.org/2013/03/11/lua-templates-faster-more-flexible-pages/",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:43:43.000Z",
+        "question": "問：MoSQL 可運用常見的 Python 資料結構來建立 SQL 語句，並提供一結果集的便捷模組。 MoSQL 主要具有哪些特色？\n（1）Easy-to-learn（2）Convenient（3）Secure & Faster（4）All of the above",
+        "answer": "答：易於學習、便利性、安全性以及效能快速，這些都是 MoSQL 的顯著特色。",
+        "reference": "https://github.com/moskytw/mosql",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:44:39.000Z",
+        "question": "問：測試英文字體的顯示效果，常常使用哪個知名的句子？\n（1）\"All your bones are belong to me\"（2）\"All the night make I my bed to swim\"（3）\"The quick brown fox jumps over the lazy dog\" （4）\"An apple a day keeps the doctor away\"",
+        "answer": "答：\"The quick brown fox jumps over the lazy dog\" 。這是為了能一次涵蓋所有英文字母而編造的句子，以便於測試每個字母的顯示效果。",
+        "reference": "http://zh.wikipedia.org/zh-tw/The_quick_brown_fox_jumps_over_the_lazy_dog",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:45:14.000Z",
+        "question": "問：《Code Rush》紀錄片是在講述矽谷的哪間公司的工程師們將原始碼開放釋出，成為新的專案？\n（1）Google（2）Blizzard（3）Microsoft（4）Netscape",
+        "answer": "答：矽谷的 Netscape 公司是《Code Rush》紀錄片的主題，工程師們釋出瀏覽器原始碼成立 Mozilla 專案。",
+        "reference": "http://moztw.org/events/code-rush/",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:46:13.000Z",
+        "question": "問：哪個社群舉辦的國際攝影競賽，在 2012 年榮獲金氏世界紀錄「世上最大的攝影比賽」（Guinness \"The largest photography competition\"）？\n（1）Wordpress（2）Evernote（3）Ingress（4）Wikipedia",
+        "answer": "答：維基百科 Wikipedia 社群在 2012 年舉辦的攝影競賽「維基愛古蹟」（Wiki Loves Monuments），上傳了共 168,208 張古蹟照片，因此獲得金氏世界紀錄「世上最大的攝影比賽」認證。",
+        "reference": "http://www.guinnessworldrecords.com/records-6000/largest-photography-competition/",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:46:58.000Z",
+        "question": "問：台灣最盛大的開放原始碼年會 COSCUP ，在 2012 年閉幕式的時候，總召是以什麼樣的姿勢被拍入團體大合照當中？\n（1）坐在輪椅上被推進去（2）坐在轎子上被抬進去（3）躺在地上被推進去（4）躺在充氣小艇上被拉進去",
+        "answer": "答：總召當時是躺在地上被工作人員給推進去，一邊被推的同時一邊比手勢讓大家拍照。",
+        "reference": "個人經驗、去年的活動照片",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:48:22.000Z",
+        "question": "問：Clime 是個 Python 模組，可在無任何組態的情形下，將每個模組轉換成多重指令 CLI 程式。 Clime 主要具有哪些特色？\n（1）不用掉入「組態地獄」的陷阱裡（2）完成註解字串 docstring 的同時也就完成了 aliases 與 metavars 的組態（3）函數自動生成每個指令的使用方式（4）以上皆是",
+        "answer": "答：避開組態地獄、同時完成 docstring 與 aliases 及 metavars 的組態、函數能自動產生指令，這些都是 Clime 這個 Python 模組的顯著特色。",
+        "reference": "https://github.com/moskytw/clime",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:48:58.000Z",
+        "question": "問：開放街圖 OpenStreetMap 採用何種的授權方式？\n（1）ODbL（2）GFDL（3）PD（4）CC",
+        "answer": "答：開放街圖 OpenStreetMap 採用 ODbL 開放資料庫授權，該授權條款較適合用於地圖資料。",
+        "reference": "http://zh.wikipedia.org/wiki/OpenStreetMap",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:49:35.000Z",
+        "question": "問：Ubuntu 作業系統的名稱 \"Ubuntu\" 源自於何處？\n（1）共同開發者的姓名每個開頭字母的組合（2）肚子飢餓發出的聲音（3）將 Vcvouv 字串以代換加密法得出（4）非洲南部當地語言",
+        "answer": "答：Ubuntu 的名稱取自於非洲南部祖魯語或科薩語，意思是「人性、我的存在是因為大家的存在」。",
+        "reference": "https://zh.wikipedia.org/wiki/Ubuntu",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:50:44.000Z",
+        "question": "問：Mozilla Firefox 網路瀏覽器的附加元件 \"Lazarus: Form Recovery\"，其名稱取自何處？\n（1）行乞者拉撒路（2）拉撒路搖滾樂團（3）死而復活的拉撒路（4）喜劇《銀河追緝令》拉撒路博士",
+        "answer": "答：附加元件 \"Lazarus: Form Recovery\"名稱取自於「死而復活的拉撒路」，因為這個功能就是在瀏覽器 Crash 的時候，可將網頁表單已遺失的輸入文字給找回。因此作者將該功能比擬作《聖經》當中耶穌命令拉撒路死而復生。",
+        "reference": "http://4ehack.wordpress.com/2013/04/03/best-popular-firefox-add-ons/",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:51:23.000Z",
+        "question": "問：KDE 社群開發的軟體應用相當廣泛，舉例來說？\n（1）強子對撞機的程式（2）教育專案（3）智慧型手機的環境（4）以上皆是",
+        "answer": "答：瑞士大型強子對撞機的程式、KDE 教育計劃、智慧型手機的環境 KDE Plasma Workspaces ，這些都是 KDE 社群開發的。",
+        "reference": "http://zh.wikipedia.org/wiki/KDE",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:51:59.000Z",
+        "question": "問：OpenCola 是什麼東西，可以吃嗎？\n（1）一款知名品牌的可樂飲料週年紀念版（2）一款經典搖滾樂團的作品（3）一款開放配方的可樂飲料（4）一款冰淇淋，跟知名品牌的產品性質相似，放一整天也不會融化",
+        "answer": "答：OpenCola 是一款開放配方的可樂飲料，以 GPL 授權釋出，因此配方可以自由取得並修改，任何人都可以製作。",
+        "reference": "http://en.wikipedia.org/wiki/OpenCola_(drink)",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:52:36.000Z",
+        "question": "問：openSUSE 作業系統 LOGO 是以什麼生物來代表？\n（1）企鵝（2）蜥蜴（3）鸚鵡螺（4）豬",
+        "answer": "答：綠色的蜥蜴是 openSUSE 作業系統的 LOGO 。",
+        "reference": "http://zh.wikipedia.org/wiki/OpenSUSE",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-17T13:53:14.000Z",
+        "question": "問：Arduino 是一種單晶片微控制器，具有哪些主要特色？\n（1）硬體平台是以開放原始碼授權釋出（2）電路圖設計是以創用 CC 授權釋出（3）能與多樣化的電子元件連接（4）以上皆是",
+        "answer": "答：Arduino 的硬體平台是開源的、電路圖是 CC 授權、可輕鬆的與感測器等多種電子元件銜接，這些都是 Arduino 的主要特色。",
+        "reference": "http://zh.wikipedia.org/wiki/Arduino",
+        "provider": "Ch.Andrew"
+    },
+    {
+        "timestamp": "2013-07-18T03:03:30.000Z",
+        "question": ".bashrc, .vimrc, /etc/rc* 的 rc 是什麼意思？",
+        "answer": "Run Commands",
+        "reference": "http://superuser.com/questions/173165/what-does-the-rc-in-bashrc-etc-mean\nhttp://en.wikipedia.org/wiki/Run_Commands",
+        "provider": "Mosky"
+    }
+]
