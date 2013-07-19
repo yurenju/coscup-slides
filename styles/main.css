@@ -36,10 +36,12 @@ body {
 
 #container {
   transition: transform 1s;
+  -webkit-transition: -webkit-transform 1s;
 }
 
 #container.up {
   transform: rotate(10deg) translateY(-150%);
+  -webkit-transform: rotate(10deg) translateY(-150%);
 }
 
 pre {

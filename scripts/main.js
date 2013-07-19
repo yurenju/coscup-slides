@@ -23,7 +23,12 @@ window.addEventListener('load', function() {
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
-            var res = xhr.response;
+            var res;
+            if (typeof(xhr.response) === 'string') {
+                res = JSON.parse(xhr.response);
+            } else {
+                res = xhr.response;
+            }
             var item = res[Math.floor(Math.random() * res.length)];
             answer.classList.remove('show');
             update(item);
