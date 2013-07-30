@@ -3,6 +3,7 @@
 // use app here
 window.addEventListener('load', function() {
     var xhr = new XMLHttpRequest();
+    var item;
     xhr.open('GET', 'scripts/faq.json', true);
     xhr.responseType = 'json';
     xhr.send();
@@ -11,6 +12,7 @@ window.addEventListener('load', function() {
     var author = document.querySelector('#author');
     var reference = document.querySelector('#reference');
     var container = document.querySelector('#container');
+
 
     function update(item) {
         container.classList.remove('up');
@@ -21,6 +23,12 @@ window.addEventListener('load', function() {
         answer.classList.add('show');
     }
 
+    var video = document.getElementById('video');
+    video.addEventListener('ended', function() {
+        video.style.visibility = 'hidden';
+        update(item);
+    });
+
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
             var res;
@@ -29,14 +37,16 @@ window.addEventListener('load', function() {
             } else {
                 res = xhr.response;
             }
-            var item = res[Math.floor(Math.random() * res.length)];
+            item = res[Math.floor(Math.random() * res.length)];
             answer.classList.remove('show');
             update(item);
             window.setInterval(function() {
                 item = res[Math.floor(Math.random() * res.length)];
                 answer.classList.remove('show');
                 container.classList.add('up');
-                window.setTimeout(update.bind(null, item), 1000);
+                var video = document.getElementById('video');
+                video.style.visibility = 'visible';
+                video.play();
             }, 20000);
         }
     };
