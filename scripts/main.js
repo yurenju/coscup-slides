@@ -25,7 +25,7 @@ window.addEventListener('load', function() {
 
     var video = document.getElementById('video');
     video.addEventListener('ended', function() {
-        video.style.visibility = 'hidden';
+        video.style.opacity = 0;
         update(item);
     });
 
@@ -45,9 +45,9 @@ window.addEventListener('load', function() {
                 answer.classList.remove('show');
                 container.classList.add('up');
                 var video = document.getElementById('video');
-                video.style.visibility = 'visible';
+                video.style.opacity = 1;
                 video.play();
-            }, 20000);
+            }, 10000);
         }
     };
 })
