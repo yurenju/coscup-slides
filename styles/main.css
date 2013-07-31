@@ -53,6 +53,7 @@ pre {
 video {
   position: absolute;
   width: calc(100%);
+  height: calc(100%);
   left: 0;
   top: 0;
   display: block;
