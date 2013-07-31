@@ -53,8 +53,11 @@ pre {
 video {
   position: absolute;
   width: calc(100%);
+  height: calc(100%);
   left: 0;
   top: 0;
+  margin-right:auto;
+  margin-left:auto;
   display: block;
   opacity: 0;
   transition: opacity 1s;
