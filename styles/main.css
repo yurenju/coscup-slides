@@ -38,6 +38,7 @@ body {
 #container {
   transition: transform 1s;
   -webkit-transition: -webkit-transform 1s;
+   opacity: 0;
 }
 
 #container.up {
@@ -56,6 +57,6 @@ video {
   left: 0;
   top: 0;
   display: block;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 1s;
 }
