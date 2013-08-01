@@ -41,7 +41,6 @@ window.addEventListener('load', function() {
             }
             item = res[Math.floor(Math.random() * res.length)];
             answer.classList.remove('show');
-            update(item);
             video.play();
             window.setInterval(function() {
                 item = res[Math.floor(Math.random() * res.length)];
