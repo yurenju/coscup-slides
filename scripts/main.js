@@ -27,6 +27,8 @@ window.addEventListener('load', function() {
     video.addEventListener('ended', function() {
         video.style.opacity = 0;
         update(item);
+        var container = document.getElementById('container');
+        container.style.opacity = 1;
     });
 
     xhr.onreadystatechange = function() {
@@ -39,7 +41,7 @@ window.addEventListener('load', function() {
             }
             item = res[Math.floor(Math.random() * res.length)];
             answer.classList.remove('show');
-            update(item);
+            video.play();
             window.setInterval(function() {
                 item = res[Math.floor(Math.random() * res.length)];
                 answer.classList.remove('show');
@@ -47,7 +49,7 @@ window.addEventListener('load', function() {
                 var video = document.getElementById('video');
                 video.style.opacity = 1;
                 video.play();
-            }, 10000);
+            }, 27000);
         }
     };
 })
