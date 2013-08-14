@@ -1,11 +1,5 @@
 [
 	{
-		"question": "題目",
-		"answer": "答案",
-		"reference": "參考來源 (reference)",
-		"provider": "大名/暱稱/ID"
-	},
-	{
 		"question": "Linux 是在哪個 newsgroup 首貼的？",
 		"answer": "comp.os.minix ",
 		"reference": "http://www.ragibhasan.com/linux/",

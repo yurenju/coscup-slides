@@ -49,7 +49,7 @@ window.addEventListener('load', function() {
                 var video = document.getElementById('video');
                 video.style.opacity = 1;
                 video.play();
-            }, 27000);
+            }, 29000);
         }
     };
 })
